@@ -27,7 +27,7 @@ export default class Form extends Component {
         <form onSubmit={this.sendForm}>
           <input onChange={this.onChange} name='name' id='name' value={this.state.name} placeholder='Enter a name ...'></input>
           <input onChange={this.onChange} name='phone' id='phone' value={this.state.phone} placeholder='Enter a phone ...'></input>
-          <button>Add</button>
+          <button className='btn'>Save</button>
         </form>
       </div>
     )

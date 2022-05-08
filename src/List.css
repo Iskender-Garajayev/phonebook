@@ -20,9 +20,9 @@ ul, li{
 
 .listCompField li{
   padding: 5px;
-  background-color: azure;
-  color: blue;
-  border-bottom: 1px solid #f1f1f1;
+  /* background-color: azure; */
+  /* color: blue; */
+  /* border-bottom: 1px solid #f1f1f1; */
   clear: both;
 }
 

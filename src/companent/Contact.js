@@ -15,7 +15,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        Phone Book App
+        <h3 className='title'>Phone Book App</h3>
         <List contacts={this.state.contacts}/>
         <Form addContact={this.addContact}/>
       </div>

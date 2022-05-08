@@ -3,3 +3,13 @@
   margin: 0 auto;
   padding: 0;
 }
+
+.btn{
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  background: hsl(221, 84%, 65%);
+  color: aliceblue;
+  border-radius: 8px;
+
+}
