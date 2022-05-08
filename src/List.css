@@ -1,0 +1,31 @@
+input{
+  margin-top: 10px;
+  height: 40px;
+  line-height: 25px;
+  width: 100%; /* 200px;*/
+  text-indent: 10px;
+}
+
+.listCompField{
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.listCompField li{
+  padding: 5px;
+  background-color: azure;
+  color: blue;
+  border-bottom: 1px solid #f1f1f1;
+  clear: both;
+}
+
+.listCompField li span{display: block;}
+.listCompField li span.name{float: left;}
+.listCompField li span.phone{float: right;}
